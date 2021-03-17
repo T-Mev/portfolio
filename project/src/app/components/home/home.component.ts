@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, OnInit, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  video: any;
+
+  constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
+    this.video = document.getElementById("background");
+    this.video.playbackRate = 0.7;
   }
 
 }
