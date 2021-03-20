@@ -25,6 +25,11 @@
     background: #ffffffdc;
 }
 
+.hamburger {
+    background: white;
+    padding: 0 20px;
+}
+
 hr {
     width: 95%;
     margin: 0 auto;
