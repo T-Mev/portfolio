@@ -1,0 +1,14 @@
+
+#navigation {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hamburger {
+    background-color: white;
+    margin: 30px;
+    height: 54px;
+    align-items: center;
+}
