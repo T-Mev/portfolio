@@ -12,4 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  changeStatus() {
+    // document.getElementById("myDIV").style.zIndex = "-1";
+  }
+
 }

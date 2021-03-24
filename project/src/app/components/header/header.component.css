@@ -11,4 +11,27 @@
     margin: 30px;
     height: 54px;
     align-items: center;
+    outline: none;
 }
+
+.overlay
+{
+    background-color: #ffffffc2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay.is-active {
+    z-index: 1000;
+    position: absolute;
+}
+
+/* .overlay */
+
+.hamburger.is-active {
+    background-color: red;
+}
+

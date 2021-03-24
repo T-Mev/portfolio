@@ -1,5 +1,7 @@
+<div class="overlay"></div>
 <div id="navigation">
-    <button class="hamburger hamburger--emphatic" type="button">
+    <button class="hamburger hamburger--spin" type="button" (click)="status=!status"
+        [ngClass]="!status ? 'success' : 'is-active'">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
         </span>
