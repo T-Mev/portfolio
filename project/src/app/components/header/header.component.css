@@ -1,37 +1,71 @@
 
 #navigation {
-    z-index: 1000;
+    z-index: 2000;
     position: absolute;
     top: 0;
     right: 0;
 }
 
 .hamburger {
-    background-color: white;
+    background-color: #ffffff;
     margin: 30px;
     height: 54px;
     align-items: center;
     outline: none;
 }
 
-.overlay
-{
-    background-color: #ffffffc2;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+.modal-body {
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.282) im !important;
+
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+    /* margin: 25px; */
+
 }
 
-.overlay.is-active {
-    z-index: 1000;
-    position: absolute;
+.modal-body p {
+    margin: 90px auto;
+    transition: 0.4s;
+
 }
 
-/* .overlay */
+.modal-body a {
+    color: #c8c8c8;
+    border: 2px solid #e0e0e0;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    transition: 0.4s;
 
-.hamburger.is-active {
-    background-color: red;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
 }
+
+.modal-body a:hover {
+    color: #111111;
+    background-color: #f6f6f6;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border: 5px solid black;
+    padding: 35px;
+}
+
+.modal-content {
+    border: 2px solid #e0e0e0;
+    border-radius: 0;
+    background: #ffffff45;
+    backdrop-filter: blur(2px);
+}
+
+.modal.fade.show {
+    /* background-color: #ffffff; */
+    background: url(../../../assets/media/Background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
