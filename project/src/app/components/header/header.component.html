@@ -1,6 +1,6 @@
+
 <div class="modal fade" id="menuModal" tabindex="-1" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog modal-dialog-centered modal-sm">
-
         <div class="modal-content">
             <div class="modal-body">
                 <p><a href="/">Home</a></p>
@@ -8,17 +8,14 @@
                 <p><a href="/projects">Projects</a></p>
             </div>
         </div>
-
     </div>
 </div>
 
 <div id="navigation">
-
     <button class="hamburger hamburger--spin" type="button" data-toggle="modal" data-dismiss="modal"
         data-target="#menuModal" (click)="status=!status" [ngClass]="!status ? 'success' : 'is-active'">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
         </span>
     </button>
-
 </div>
