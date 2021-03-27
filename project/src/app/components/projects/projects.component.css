@@ -1,3 +1,22 @@
+.buttons a {
+    align-items: center;
+    color: #111111;
+    background: #ffffff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    /* margin: 0 2.5vw; */
+}
+
+.buttons a:hover {
+    font-weight: 800;
+    letter-spacing: 4px;
+    background: #ffffffdc;
+}
 
 .caption {
     color: black;
@@ -12,8 +31,14 @@
 .carousel-caption {
     position: relative;
     left: 0;
-    top: 30%;
-    margin: 0 60px 0 60px;
+    top: 20%;
+    margin: 0 40px 0 40px;
+}
+
+.carousel-caption p {
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    margin: 0 7vw;
 }
 
 .carousel-item {
@@ -27,11 +52,21 @@
     z-index: 1;
   }
 
+  .container {
+      margin-top: 40px;
+      max-width: 650px;
+  }
+
   .logo-container {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .logo-container img {
-      width: 30vw;
-      margin-bottom: 10px;
+      width: 700px;
+      max-width: 70vw;
+      margin-bottom: 15px;
+  }
+
+  .tech {
+      margin-bottom: 20px !important;
   }
