@@ -39,8 +39,7 @@ hr {
     left: 0;
 }
 
-.overlay
-{
+.overlay {
     background: #000000;
     /* background: #000f2c; */
     mix-blend-mode: color;
