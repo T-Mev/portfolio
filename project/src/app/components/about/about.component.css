@@ -1,0 +1,88 @@
+
+.about {
+    background: url(../../../assets/media/AboutBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.about-container {
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 1.35rem;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.col-lg-6 h1 {
+    font-weight: 600;
+}
+
+.col-lg-6 hr {
+    width: 95%;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 100%);
+    height: 2px;
+    margin: 10px auto 15px auto;
+}
+
+.col-lg-6 p {
+    font-weight: 300;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+}
+.profile-img {
+    width: 85%;
+    max-width: 350px;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.4);
+}
+
+.row {
+    margin: 0 1px;
+}
+
+.skill-tags {
+    border: 2px solid rgb(37, 37, 37);
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+.skill-tags-body {
+    padding: .8rem;
+    margin: 0 4px;
+}
+
+.skills {
+    background: none;
+}
+
+.skills-container {
+    font-size: 1.35rem;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+}
+
+.skills-container h1 {
+    font-weight: 600;
+}
+
+.skills-container hr {
+    width: 95%;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(37, 37, 37) 50%, rgba(255, 255, 255, 0) 100%);
+    height: 2px;
+    margin: 10px auto 15px auto;
+}
+
+.skills-container p {
+    font-weight: 300;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 992px) {
+    .about-title {
+        margin-top: 20px;
+    }
+}

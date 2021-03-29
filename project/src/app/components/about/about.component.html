@@ -1,2 +1,35 @@
 <app-header></app-header>
-<p>about works!</p>
+
+<div class="jumbotron jumbotron-fluid about">
+    <div class="container about-container">
+        <div class="row text-center">
+            <div class="col-lg-6">
+                <img src="../../../assets/media/Pic.png" class="profile-img">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-2 about-title">ABOUT ME</h1>
+                <hr>
+                <p>
+                    I'm a Full-Stack Software Developer passionate about learning new skills and excelling in the
+                    ever-changing world of technology. I enjoy building different applications and care about developing
+                    solutions to improve collaboration and creativity for my team. I am a driven self-starter eager to
+                    continue
+                    to develop my skills and I am seeking an opportunity at a company that shares my interest in
+                    developing quality software.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid text-center skills">
+    <div class="container skills-container">
+        <h1 class="display-2">SKILLS</h1>
+        <hr>
+        <div class="row">
+            <div *ngFor="let skill of skills" class="card skill-tags">
+                <div class="card-body skill-tags-body">{{skill}}</div>
+            </div>
+        </div>
+    </div>
+</div>
