@@ -26,9 +26,27 @@
     <div class="container skills-container">
         <h1 class="display-2">SKILLS</h1>
         <hr>
-        <div class="row">
+        <div class="row skills-row">
             <div *ngFor="let skill of skills" class="card skill-tags">
                 <div class="card-body skill-tags-body">{{skill}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid text-center contact">
+    <div class="container contact-container">
+        <h1 class="display-2 contact-title">CONTACT</h1>
+        <hr>
+        <div class="row text-center contact-row">
+            <div class="col-sm-4">
+                <a href="https://github.com/t-mev" target="_blank"><img src="../../../assets/media/Github.svg" class="contact-icons"></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://www.linkedin.com/in/tmevlani" target="_blank"><img src="../../../assets/media/Linkedin.svg" class="contact-icons"></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="mailto:teddirect@gmail.com"><img src="../../../assets/media/Email.svg" class="contact-icons"></a>
             </div>
         </div>
     </div>
