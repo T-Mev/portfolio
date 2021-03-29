@@ -12,6 +12,7 @@ export class AboutComponent implements OnInit {
     "Spring Boot",
     "Hibernate",
     "Gradle",
+    "Thymeleaf",
     "Angular 8",
     "JavaScript",
     "TypeScript",
