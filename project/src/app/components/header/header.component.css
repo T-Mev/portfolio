@@ -23,8 +23,6 @@
 
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
-    /* margin: 25px; */
-
 }
 
 .modal-body p {
@@ -65,10 +63,55 @@
 }
 
 .modal.fade.show {
-    /* background-color: #ffffff; */
     background: url(../../../assets/media/Background2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+@media only screen and (max-width: 412px) {
+    .hamburger {
+        margin: 22px;
+        height: 47px;
+    }
 
+    .hamburger-box {
+        width: 27px;
+        height: 17px;
+    }
+
+    .hamburger--spin .hamburger-inner::before {
+        width: 30px;
+    }
+
+    .hamburger--spin .hamburger-inner {
+        width: 30px;
+    }
+
+    .hamburger--spin .hamburger-inner::after {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .hamburger {
+        margin: 14px;
+        height: 47px;
+    }
+
+    .hamburger-box {
+        width: 27px;
+        height: 17px;
+    }
+
+    .hamburger--spin .hamburger-inner::before {
+        width: 30px;
+    }
+
+    .hamburger--spin .hamburger-inner {
+        width: 30px;
+    }
+
+    .hamburger--spin .hamburger-inner::after {
+        width: 30px;
+    }
+}
