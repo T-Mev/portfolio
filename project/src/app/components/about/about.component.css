@@ -152,7 +152,7 @@
     }
 }
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 412px) {
     .col-lg-6 h1 {
         font-size: 4rem;
     }
@@ -163,6 +163,36 @@
 
     .skills-container h1 {
         font-size: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 321px) {
+    .col-lg-6 h1 {
+        font-size: 3.5rem;
+    }
+
+    .contact-container h1 {
+        font-size: 3.5rem;
+    }
+
+    .skills-container h1 {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 251px) {
+    .col-lg-6 h1 {
+        font-size: 3rem;
+    }
+
+    .contact-container h1 {
+        font-size: 3rem;
+    }
+
+    .skills-container h1 {
+        font-size: 3rem;
     }
 
 }
