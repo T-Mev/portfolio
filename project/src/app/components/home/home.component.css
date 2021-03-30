@@ -11,13 +11,13 @@
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .buttons a:hover {
-    font-weight: 700;
+    /* font-weight: 700; */
     letter-spacing: 4px;
     background: #ffffffdc;
 }
