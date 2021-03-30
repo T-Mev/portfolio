@@ -9,13 +9,17 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  video: any;
+  // video: any;
 
   constructor(@Inject(DOCUMENT) private document: Document, private router: Router) { }
 
   ngOnInit() {
-    this.video = document.getElementById("background");
-    this.video.playbackRate = 0.7;
+    // this.video = <HTMLVideoElement> document.getElementById("background");
+
+    let videoPlayer: HTMLVideoElement = <HTMLVideoElement>document.getElementById('background');
+    // videoPlayer.play();
+    videoPlayer.muted = true;
+    videoPlayer.playbackRate = 0.6;
   }
 
 }
